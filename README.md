@@ -2,7 +2,7 @@
 
 ## Usage
 
-View in browser at [http://challenger-research.org/](http://challenger-research.org/").
+View in browser at [http://challenger-research.org/](http://challenger-research.org/).
 
 ## Contributing
 
