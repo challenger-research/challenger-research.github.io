@@ -13,10 +13,10 @@ git clone git@github.com:challenger-research/challenger-research.github.io.git
 cd challenger-research.github.io/
 ````
 
-Start a local webserver at view in browser at http://localhost:8888/:
+Start a local web server at view in browser at http://localhost:8888/:
 
 ```` sh
-python -m SimpleHTTPServer 8888 &
+python -m SimpleHTTPServer 8888
 ````
 
 ## [License](LICENSE.md)
