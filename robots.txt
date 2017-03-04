@@ -1,1 +1,4 @@
 Sitemap: http://challenger-research.org/sitemap.xml
+
+User-agent: *
+Disallow:
