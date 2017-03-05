@@ -10,6 +10,47 @@
     <meta name="robots" content="index, follow">
     <meta name="googlebot" content="index, follow">
 
+    <!-- Structured Data in JSON-LD format for consumption by search engines -->
+    <script type="application/ld+json">
+      {
+        "@context": "http://schema.org",
+        "@type": "Organization",
+        "name": "Challenger Research",
+        "alternateName": "@ChallengerPoll",
+        "description": "Specializing in innovative SMS-based polling technologies, Challenger Research is a nonpartisan opinion research organization based in New Haven, Connecticut.",
+        "image": "http://challenger-research.org/images/gloves.jpg",
+        "url": "http://challenger-research.org/",
+        "email": "challenger.research@gmail.com",
+        "founder": {
+          "@type": "Person",
+          "name":"MJ Rossetti",
+          "image":"http://data-creative.info/assets/img/team/mj-rossetti-portrait.jpg",
+          "alumniOf":{
+            "@type": "Organization",
+            "name": "Obama for America",
+            "url": "https://barackobama.com/"
+          }
+        },
+        "foundingDate":"2016-11-01",
+        "address": {
+          "@type": "PostalAddress",
+          "addressLocality": "New Haven",
+          "addressRegion": "Connecticut",
+          "addressCountry": "United States"
+        },
+        "areaServed":{
+          "@type":"AdministrativeArea",
+          "name":"New England",
+          "hasMap":"https://www.google.com/maps/place/New+England/",
+          "containsPlace":{
+            "@type":"AdministrativeArea",
+            "name":"Connecticut",
+            "hasMap":"https://www.google.com/maps/place/Connecticut/"
+          }
+        }
+      }
+    </script>
+
     <link rel="stylesheet" href="stylesheets/styles.css">
     <link rel="stylesheet" href="stylesheets/github-light.css">
     <meta name="viewport" content="width=device-width">
