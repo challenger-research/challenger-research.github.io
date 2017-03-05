@@ -23,6 +23,8 @@
   + https://developers.google.com/search/docs/guides/intro-structured-data
   + https://www.google.com/webmasters/markup-helper/
   + http://schema.org/Organization
+  + http://schema.org/Person
+  + http://schema.org/Report
   + https://search.google.com/structured-data/testing-tool/u/0/
 
 ### Keywords
