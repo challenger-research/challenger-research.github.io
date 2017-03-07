@@ -26,11 +26,18 @@
           "name":"MJ Rossetti",
           "alternateName":"@s2t2",
           "image":"http://data-creative.info/assets/img/team/mj-rossetti-portrait.jpg",
-          "alumniOf":{
-            "@type": "Organization",
-            "name": "Obama for America",
-            "url": "https://barackobama.com/"
-          }
+          "alumniOf":[
+            {
+              "@type": "Organization",
+              "name": "Obama for America",
+              "url": "https://barackobama.com/"
+            },
+            {
+              "@type": "Organization",
+              "name": "Democratic National Committee",
+              "url": "https://democrats.org/"
+            }
+          ]
         },
         "foundingDate":"2016-11-01",
         "address": {
@@ -43,11 +50,65 @@
           "@type":"AdministrativeArea",
           "name":"New England",
           "hasMap":"https://www.google.com/maps/place/New+England/",
-          "containsPlace":{
-            "@type":"State",
-            "name":"Connecticut",
-            "hasMap":"https://www.google.com/maps/place/Connecticut/"
-          }
+          "containsPlace":[
+            {
+              "@type":"State",
+              "name":"Connecticut",
+              "hasMap":"https://www.google.com/maps/place/Connecticut/",
+              "containsPlace":[
+                {
+                  "@type":"City",
+                  "name":"New Haven",
+                  "hasMap":"https://www.google.com/maps/place/New+Haven,+CT/"
+                },
+                {
+                  "@type":"City",
+                  "name":"Stamford",
+                  "hasMap":"https://www.google.com/maps/place/Stamford,+CT/"
+                },
+                {
+                  "@type":"City",
+                  "name":"Hartford",
+                  "hasMap":"https://www.google.com/maps/place/Hartford,+CT/"
+                }
+              ]
+            },
+            {
+              "@type":"State",
+              "name":"New York",
+              "hasMap":"https://www.google.com/maps/place/New+York/",
+              "containsPlace":{
+                "@type":"City",
+                "name":"New York City",
+                "hasMap":"https://www.google.com/maps/place/New+York,+NY/"
+              }
+            },
+            {
+              "@type":"State",
+              "name":"Rhode Island",
+              "hasMap":"https://www.google.com/maps/place/Rhode+Island/"
+            },
+            {
+              "@type":"State",
+              "name":"Massachussetts",
+              "hasMap":"https://www.google.com/maps/place/Massachusetts/"
+            },
+            {
+              "@type":"State",
+              "name":"New Hampshire",
+              "hasMap":"https://www.google.com/maps/place/New+Hampshire/"
+            },
+            {
+              "@type":"State",
+              "name":"Vermont",
+              "hasMap":"https://www.google.com/maps/place/Vermont/"
+            },
+            {
+              "@type":"State",
+              "name":"Maine",
+              "hasMap":"https://www.google.com/maps/place/Maine/"
+            }
+          ]
         }
       }
     </script>
